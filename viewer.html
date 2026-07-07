@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高速道路路線図</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+
+<body>
+    <header id="topbar">
+        <a href="index.html" id="app-title">
+            <span class="app-title-main">KP Viewer</span>
+            <span class="app-title-sub">高速道路路線図</span>
+        </a>
+
+        <div id="route-title"></div>
+    </header>
+
+    <div id="app"></div>
+    <div id="kp-ui"></div>
+    <div id="mini-map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <footer class="copyright">
+        Map data © OpenStreetMap contributors.
+        Route geometry derived from OpenStreetMap data.
+    </footer>
+</body>

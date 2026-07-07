@@ -1,0 +1,1450 @@
+{
+  "id": "28",
+  "name": "E28 神戸淡路鳴門自動車道",
+  "length": 89.0,
+  "start": "神戸西IC",
+  "end": "鳴門IC",
+  "structures": [
+    {
+      "type": "TUNNEL",
+      "name": "布施畑トンネル",
+      "up": {
+        "start": 3.06,
+        "end": 3.91,
+        "length_m": 848
+      },
+      "down": {
+        "start": 3.05,
+        "end": 3.9,
+        "length_m": 854
+      }
+    },
+    {
+      "type": "TUNNEL",
+      "name": "高塚山トンネル",
+      "up": {
+        "start": 6.52,
+        "end": 7.7,
+        "length_m": 1211
+      },
+      "down": {
+        "start": 6.52,
+        "end": 7.7,
+        "length_m": 1181
+      }
+    },
+    {
+      "type": "TUNNEL",
+      "name": "舞子トンネル",
+      "up": {
+        "start": 9.69,
+        "end": 12.98,
+        "length_m": 3290
+      },
+      "down": {
+        "start": 9.72,
+        "end": 12.97,
+        "length_m": 3250
+      }
+    },
+    {
+      "type": "TUNNEL",
+      "name": "仁井トンネル",
+      "up": {
+        "start": 29.18,
+        "end": 29.55,
+        "length_m": 378
+      },
+      "down": {
+        "start": 29.18,
+        "end": 29.55,
+        "length_m": 429
+      }
+    },
+    {
+      "type": "TUNNEL",
+      "name": "川井谷トンネル",
+      "up": {
+        "start": 30.82,
+        "end": 31.14,
+        "length_m": 260
+      },
+      "down": {
+        "start": 30.82,
+        "end": 31.14,
+        "length_m": 260
+      }
+    },
+    {
+      "type": "TUNNEL",
+      "name": "第1鳴門トンネル",
+      "up": {
+        "start": 83.52,
+        "end": 83.75,
+        "length_m": 191 
+      },
+      "down": {
+        "start": 83.52,
+        "end": 83.75,
+        "length_m": 201 
+      }
+    },
+    {
+      "type": "TUNNEL",
+      "name": "第2鳴門トンネル",
+      "up": {
+        "start": 84.36,
+        "end": 84.75,
+        "length_m": 353  
+      },
+      "down": {
+        "start": 84.36,
+        "end": 84.75,
+        "length_m": 374  
+      }
+    },
+    {
+      "type": "TUNNEL",
+      "name": "撫養トンネル",
+      "up": {
+        "start": 87.58,
+        "end": 88.35,
+        "length_m": 770  
+      },
+      "down": {
+        "start": 87.6,
+        "end": 88.23,
+        "length_m": 616  
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "藍那橋",
+      "up": {
+        "start": 0.39,
+        "end": 0.41
+      },
+      "down": {
+        "start": 0.39,
+        "end": 0.41
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "柏木谷高架橋",
+      "up": {
+        "start": 2.41,
+        "end": 2.9
+      },
+      "down": {
+        "start": 2.41,
+        "end": 2.9
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "布施畑高架橋",
+      "up": {
+        "start": 4.08,
+        "end": 4.74
+      },
+      "down": {
+        "start": 4.08,
+        "end": 4.74
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "布施畑橋",
+      "up": {
+        "start": 5.22,
+        "end": 5.24
+      },
+      "down": {
+        "start": 5.22,
+        "end": 5.24
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "西神高架橋",
+      "up": {
+        "start": 5.3,
+        "end": 6.51
+      },
+      "down": {
+        "start": 5.3,
+        "end": 6.51
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "室山高架橋",
+      "up": {
+        "start": 8.05,
+        "end": 8.65
+      },
+      "down": {
+        "start": 8.05,
+        "end": 8.69
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "舞子高架橋",
+      "up": {
+        "start": 12.96,
+        "end": 13.55
+      },
+      "down": {
+        "start": 12.96,
+        "end": 13.55
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "明石海峡大橋",
+      "up": {
+        "start": 13.55,
+        "end": 17.49,
+        "length_m": 3911 
+      },
+      "down": {
+        "start": 13.55,
+        "end": 17.49,
+        "length_m": 3911 
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "松帆高架橋",
+      "up": {
+        "start": 17.52,
+        "end": 17.78
+      },
+      "down": {
+        "start": 17.52,
+        "end": 17.78
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "長谷川橋",
+      "up": {
+        "start": 18.6,
+        "end": 18.69
+      },
+      "down": {
+        "start": 18.6,
+        "end": 18.69
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "茶間川橋",
+      "up": {
+        "start": 19.08,
+        "end": 19.22
+      },
+      "down": {
+        "start": 19.08,
+        "end": 19.22
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "御手洗橋",
+      "up": {
+        "start": 19.75,
+        "end": 19.8
+      },
+      "down": {
+        "start": 19.75,
+        "end": 19.8
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "鵜崎川橋",
+      "up": {
+        "start": 20.61,
+        "end": 20.82
+      },
+      "down": {
+        "start": 20.61,
+        "end": 20.82
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "鵜崎高架橋",
+      "up": {
+        "start": 21.44,
+        "end": 21.65
+      },
+      "down": {
+        "start": 21.44,
+        "end": 21.65
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "難川橋",
+      "up": {
+        "start": 21.65,
+        "end": 21.9
+      },
+      "down": {
+        "start": 21.65,
+        "end": 21.9
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "楠本川橋",
+      "up": {
+        "start": 23.0,
+        "end": 23.32
+      },
+      "down": {
+        "start": 23.0,
+        "end": 23.32
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "片山川橋",
+      "up": {
+        "start": 23.49,
+        "end": 23.75
+      },
+      "down": {
+        "start": 23.49,
+        "end": 23.71
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "立石川橋",
+      "up": {
+        "start": 24.07,
+        "end": 24.24
+      },
+      "down": {
+        "start": 24.07,
+        "end": 24.24
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "東浦IC橋",
+      "up": {
+        "start": 25.50,
+        "end": 25.55
+      },
+      "down": {
+        "start": 25.50,
+        "end": 25.55
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "白山橋",
+      "up": {
+        "start": 26.12,
+        "end": 26.21
+      },
+      "down": {
+        "start": 26.12,
+        "end": 26.22
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "一谷川橋",
+      "up": {
+        "start": 26.23,
+        "end": 26.44
+      },
+      "down": {
+        "start": 26.23,
+        "end": 26.44
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "鳶ケ谷池橋",
+      "up": {
+        "start": 27.21,
+        "end": 27.25
+      },
+      "down": {
+        "start": 27.21,
+        "end": 27.25
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "路谷上池橋",
+      "up": {
+        "start": 27.7,
+        "end": 27.8
+      },
+      "down": {
+        "start": 27.7,
+        "end": 27.8
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "小田高架橋",
+      "up": {
+        "start": 27.9,
+        "end": 28.31
+      },
+      "down": {
+        "start": 27.9,
+        "end": 28.31
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "鳴見川橋",
+      "up": {
+        "start": 29.62,
+        "end": 29.63
+      },
+      "down": {
+        "start": 29.62,
+        "end": 29.63
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "川井谷高架橋",
+      "up": {
+        "start": 30.39,
+        "end": 30.54
+      },
+      "down": {
+        "start": 30.39,
+        "end": 30.54
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "斗の内高架橋",
+      "up": {
+        "start": 32.3,
+        "end": 32.42
+      },
+      "down": {
+        "start": 32.3,
+        "end": 32.42
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "斗の内川橋",
+      "up": {
+        "start": 32.66,
+        "end": 32.96
+      },
+      "down": {
+        "start": 32.66,
+        "end": 32.96
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "青谷川橋",
+      "up": {
+        "start": 33.17,
+        "end": 33.22
+      },
+      "down": {
+        "start": 33.17,
+        "end": 33.22
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "赤井池橋",
+      "up": {
+        "start": 33.7,
+        "end": 33.78
+      },
+      "down": {
+        "start": 33.7,
+        "end": 33.78
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "青波川橋",
+      "up": {
+        "start": 33.92,
+        "end": 34.02
+      },
+      "down": {
+        "start": 33.92,
+        "end": 34.02
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "育波川橋",
+      "up": {
+        "start": 33.95,
+        "end": 34.05
+      },
+      "down": {
+        "start": 33.35,
+        "end": 34.05
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "北淡インターチェンジ橋",
+      "up": {
+        "start": 34.35,
+        "end": 34.39
+      },
+      "down": {
+        "start": 34.35,
+        "end": 34.39
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "育波橋",
+      "up": {
+        "start": 34.58,
+        "end": 34.6
+      },
+      "down": {
+        "start": 34.58,
+        "end": 34.6
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "室津高架橋",
+      "up": {
+        "start": 35.13,
+        "end": 35.55
+      },
+      "down": {
+        "start": 35.13,
+        "end": 35.55
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "小川高架橋",
+      "up": {
+        "start": 35.82,
+        "end": 36.1
+      },
+      "down": {
+        "start": 35.82,
+        "end": 36.1
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "尾崎高架橋",
+      "up": {
+        "start": 37.85,
+        "end": 38.07
+      },
+      "down": {
+        "start": 37.85,
+        "end": 38.07
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "水池橋",
+      "up": {
+        "start": 38.4,
+        "end": 38.5
+      },
+      "down": {
+        "start": 38.4,
+        "end": 38.5
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "砂土谷池橋",
+      "up": {
+        "start": 38.55,
+        "end": 38.65
+      },
+      "down": {
+        "start": 38.55,
+        "end": 38.65
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "宮川橋",
+      "up": {
+        "start": 38.87,
+        "end": 38.88
+      },
+      "down": {
+        "start": 38.87,
+        "end": 38.88
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "滝ヶ谷池橋",
+      "up": {
+        "start": 39.27,
+        "end": 38.36
+      },
+      "down": {
+        "start": 39.27,
+        "end": 38.36
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "二子川橋",
+      "up": {
+        "start": 40.0,
+        "end": 40.02
+      },
+      "down": {
+        "start": 40.0,
+        "end": 40.02
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "新村川橋",
+      "up": {
+        "start": 40.35,
+        "end": 40.46
+      },
+      "down": {
+        "start": 40.35,
+        "end": 40.46
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "遠田高架橋",
+      "up": {
+        "start": 40.95,
+        "end": 41.08
+      },
+      "down": {
+        "start": 40.95,
+        "end": 41.08
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "清次郎川橋",
+      "up": {
+        "start": 41.29,
+        "end": 41.31
+      },
+      "down": {
+        "start": 41.29,
+        "end": 41.31
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "津名一宮IC橋",
+      "up": {
+        "start": 44.47,
+        "end": 44.49
+      },
+      "down": {
+        "start": 44.47,
+        "end": 44.49
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 47.31,
+        "end": 47.42
+      },
+      "down": {
+        "start": 47.31,
+        "end": 47.42
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 48.26,
+        "end": 48.31
+      },
+      "down": {
+        "start": 48.26,
+        "end": 48.33
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 48.68,
+        "end": 48.8
+      },
+      "down": {
+        "start": 48.68,
+        "end": 48.8
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 48.95,
+        "end": 49.03
+      },
+      "down": {
+        "start": 48.95,
+        "end": 49.03
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 50.22,
+        "end": 50.36
+      },
+      "down": {
+        "start": 50.22,
+        "end": 50.36
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 50.47,
+        "end": 50.58
+      },
+      "down": {
+        "start": 50.47,
+        "end": 50.58
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 51.49,
+        "end": 51.60
+      },
+      "down": {
+        "start": 51.49,
+        "end": 51.60
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 51.82,
+        "end": 51.98
+      },
+      "down": {
+        "start": 51.80,
+        "end": 51.98
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 53.35,
+        "end": 53.45
+      },
+      "down": {
+        "start": 53.35,
+        "end": 53.45
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 53.66,
+        "end": 53.75
+      },
+      "down": {
+        "start": 53.66,
+        "end": 53.75
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 54.22,
+        "end": 54.55
+      },
+      "down": {
+        "start": 54.22,
+        "end": 54.55
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 54.77,
+        "end": 54.92
+      },
+      "down": {
+        "start": 54.77,
+        "end": 54.92
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 55.82,
+        "end": 55.88
+      },
+      "down": {
+        "start": 55.82,
+        "end": 55.88
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "奥畑川橋",
+      "up": {
+        "start": 56.05,
+        "end": 56.24
+      },
+      "down": {
+        "start": 56.05,
+        "end": 56.24
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "洲本IC橋",
+      "up": {
+        "start": 56.37,
+        "end": 56.39
+      },
+      "down": {
+        "start": 56.37,
+        "end": 56.39
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "血刃川橋",
+      "up": {
+        "start": 57.08,
+        "end": 57.1
+      },
+      "down": {
+        "start": 57.08,
+        "end": 57.1
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "広田橋",
+      "up": {
+        "start": 58.87,
+        "end": 58.93
+      },
+      "down": {
+        "start": 58.87,
+        "end": 58.93
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "平池橋",
+      "up": {
+        "start": 62.22,
+        "end": 62.35
+      },
+      "down": {
+        "start": 62.22,
+        "end": 62.35
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 62.56,
+        "end": 62.7
+      },
+      "down": {
+        "start": 62.56,
+        "end": 62.7
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 63.52,
+        "end": 63.98
+      },
+      "down": {
+        "start": 63.52,
+        "end": 63.98
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "三原川橋",
+      "up": {
+        "start": 64.15,
+        "end": 64.21
+      },
+      "down": {
+        "start": 64.15,
+        "end": 64.21
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第1三原高架橋",
+      "up": {
+        "start": 64.83,
+        "end": 64.95
+      },
+      "down": {
+        "start": 64.83,
+        "end": 64.95
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第2三原高架橋",
+      "up": {
+        "start": 65.22,
+        "end": 65.65
+      },
+      "down": {
+        "start": 65.22,
+        "end": 65.65
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "西淡三原IC橋",
+      "up": {
+        "start": 65.8,
+        "end": 65.84
+      },
+      "down": {
+        "start": 65.8,
+        "end": 65.84
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "志知高架橋",
+      "up": {
+        "start": 65.98,
+        "end": 66.91
+      },
+      "down": {
+        "start": 65.98,
+        "end": 66.91
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "鈩橋",
+      "up": {
+        "start": 67.3,
+        "end": 67.32
+      },
+      "down": {
+        "start": 67.3,
+        "end": 67.32
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "新川橋",
+      "up": {
+        "start": 68.0,
+        "end": 68.06
+      },
+      "down": {
+        "start": 68.0,
+        "end": 68.06
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "飯山寺橋",
+      "up": {
+        "start": 68.37,
+        "end": 68.43
+      },
+      "down": {
+        "start": 68.37,
+        "end": 68.43
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第一志知奥橋",
+      "up": {
+        "start": 70.32,
+        "end": 70.37
+      },
+      "down": {
+        "start": 70.32,
+        "end": 70.37
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第二志知奥橋",
+      "up": {
+        "start": 70.62,
+        "end": 70.69
+      },
+      "down": {
+        "start": 70.62,
+        "end": 70.69
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "??橋",
+      "up": {
+        "start": 71.16,
+        "end": 71.22
+      },
+      "down": {
+        "start": 71.16,
+        "end": 71.22
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第一伊毘高架橋",
+      "up": {
+        "start": 75.27,
+        "end": 75.42
+      },
+      "down": {
+        "start": 75.27,
+        "end": 75.42
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第二伊毘高架橋",
+      "up": {
+        "start": 75.45,
+        "end": 75.85
+      },
+      "down": {
+        "start": 75.45,
+        "end": 75.85
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第三伊毘高架橋",
+      "up": {
+        "start": 75.95,
+        "end": 75.99
+      },
+      "down": {
+        "start": 75.95,
+        "end": 75.99
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第四伊毘高架橋",
+      "up": {
+        "start": 76.03,
+        "end": 76.08
+      },
+      "down": {
+        "start": 76.03,
+        "end": 76.08
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第五伊毘高架橋",
+      "up": {
+        "start": 76.14,
+        "end": 76.28
+      },
+      "down": {
+        "start": 76.14,
+        "end": 76.28
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "第六伊毘高架橋",
+      "up": {
+        "start": 76.28,
+        "end": 76.38
+      },
+      "down": {
+        "start": 76.32,
+        "end": 76.38
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "門崎高架橋",
+      "up": {
+        "start": 76.7,
+        "end": 77.87
+      },
+      "down": {
+        "start": 76.32,
+        "end": 77.87
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "大鳴門橋",
+      "up": {
+        "start": 77.88,
+        "end": 79.45,
+        "length_m": 1629 
+      },
+      "down": {
+        "start": 77.88,
+        "end": 79.45,
+        "length_m": 1629 
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "孫崎高架橋",
+      "up": {
+        "start": 79.45,
+        "end": 79.58
+      },
+      "down": {
+        "start": 79.45,
+        "end": 79.58
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "亀浦高架橋",
+      "up": {
+        "start": 79.65,
+        "end": 80.28
+      },
+      "down": {
+        "start": 79.65,
+        "end": 80.28
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "鳴門北インターチェンジ橋",
+      "up": {
+        "start": 81.72,
+        "end": 81.74
+      },
+      "down": {
+        "start": 81.72,
+        "end": 81.74
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "黒山橋",
+      "up": {
+        "start": 82.93,
+        "end": 82.98
+      },
+      "down": {
+        "start": 82.93,
+        "end": 82.98
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "土佐泊浦高架橋",
+      "up": {
+        "start": 83.8,
+        "end": 84.29
+      },
+      "down": {
+        "start": 83.75,
+        "end": 84.36
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "撫養橋北高架橋",
+      "up": {
+        "start": 84.74,
+        "end": 84.94
+      },
+      "down": {
+        "start": 84.74,
+        "end": 84.94
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "撫養橋",
+      "up": {
+        "start": 84.94,
+        "end": 85.46,
+        "length_m": 942 
+      },
+      "down": {
+        "start": 84.94,
+        "end": 85.46,
+        "length_m": 996  
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "撫養橋南高架橋",
+      "up": {
+        "start": 85.46,
+        "end": 85.75
+      },
+      "down": {
+        "start": 85.46,
+        "end": 85.75
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "撫養高架橋",
+      "up": {
+        "start": 86.14,
+        "end": 87.44
+      },
+      "down": {
+        "start": 86.14,
+        "end": 87.44
+      }
+    },
+    {
+      "type": "BRIDGE",
+      "name": "木津高架橋",
+      "up": {
+        "start": 88.55,
+        "end": 88.76
+      },
+      "down": {
+        "start": 88.58,
+        "end": 88.75
+      }
+    }
+  ],
+  "facilities": [
+    {
+      "name": "神戸西IC",
+      "type": "IC",
+      "up": {
+        "kp": 0.0
+      },
+      "down": {
+        "kp": 0.0
+      }
+    },
+    {
+      "name": "布施畑JCT/IC",
+      "type": "JCT_IC",
+      "up": {
+        "kp": 5.0
+      },
+      "down": {
+        "kp": 5.0
+      }
+    },
+    {
+      "name": "垂水JCT/IC",
+      "type": "JCT_IC",
+      "up": {
+        "kp": 8.8
+      },
+      "down": {
+        "kp": 8.8
+      }
+    },
+    {
+      "name": "淡路北SIC",
+      "type": "SIC",
+      "up": {
+        "kp": 20.1
+      },
+      "down": {
+        "kp": 20.1
+      }
+    },
+    {
+      "name": "淡路SA",
+      "type": "SA",
+      "up": {
+        "kp": 20.1
+      },
+      "down": {
+        "kp": 20.1
+      }
+    },
+    {
+      "name": "淡路IC",
+      "type": "IC",
+      "up": {
+        "kp": 20.1
+      },
+      "down": {
+        "kp": 20.1
+      }
+    },
+    {
+      "name": "東浦IC",
+      "type": "IC",
+      "etcOnly" : true,
+      "up": {
+        "kp": 25.5
+      },
+      "down": {
+        "kp": 25.5
+      }
+    },
+    {
+      "name": "北淡IC",
+      "type": "IC",
+      "up": {
+        "kp": 34.3
+      },
+      "down": {
+        "kp": 34.3
+      }
+    },
+    {
+      "name": "室津PA",
+      "type": "PA",
+      "up": {
+        "kp": 36.5
+      },
+      "down": {
+        "kp": 36.5
+      }
+    },
+    {
+      "name": "津名一宮IC",
+      "type": "IC",
+      "up": {
+        "kp": 44.4
+      },
+      "down": {
+        "kp": 44.4
+      }
+    },
+    {
+      "name": "淡路島中央SIC",
+      "type": "SIC",
+      "up": {
+        "kp": 52.4
+      },
+      "down": {
+        "kp": 52.4
+      }
+    },
+    {
+      "name": "洲本IC",
+      "type": "IC",
+      "up": {
+        "kp": 56.3
+      },
+      "down": {
+        "kp": 56.3
+      }
+    },
+    {
+      "name": "緑PA",
+      "type": "PA",
+      "up": {
+        "kp": 59.4
+      },
+      "down": {
+        "kp": 59.4
+      }
+    },
+    {
+      "name": "西淡三原IC",
+      "type": "IC",
+      "up": {
+        "kp": 65.8
+      },
+      "down": {
+        "kp": 65.8
+      }
+    },
+    {
+      "name": "淡路島南PA",
+      "type": "PA",
+      "up": {
+        "kp": 74.6
+      },
+      "down": {
+        "kp": 74.6
+      }
+    },
+    {
+      "name": "淡路島南IC",
+      "type": "IC",
+      "up": {
+        "kp": 74.6
+      },
+      "down": {
+        "kp": 74.6
+      }
+    },
+    {
+      "name": "鳴門北IC",
+      "type": "IC",
+      "up": {
+        "kp": 81.7
+      },
+      "down": {
+        "kp": 81.7
+      }
+    },
+    {
+      "name": "鳴門IC",
+      "type": "IC",
+      "up": {
+        "kp": 89.0
+      },
+      "down": {
+        "kp": 89.0
+      }
+    }
+  ]
+}

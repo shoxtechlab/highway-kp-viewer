@@ -1,0 +1,636 @@
+{
+    "id": "e30",
+    "name": "E30 瀬戸中央自動車道",
+    "length": 37.3,
+    "start": "早島IC",
+    "end": "坂出IC",
+    "structures": [
+        {
+            "type": "TUNNEL",
+            "name": "正面山トンネル",
+            "up": {
+                "start": 10.05,
+                "end": 10.59,
+                "length_m": 538
+            },
+            "down": {
+                "start": 10.05,
+                "end": 10.59,
+                "length_m": 538
+            }
+        },
+        {
+            "type": "TUNNEL",
+            "name": "柳田トンネル",
+            "up": {
+                "start": 14.17,
+                "end": 14.50,
+                "length_m": 387
+            },
+            "down": {
+                "start": 14.17,
+                "end": 14.50,
+                "length_m": 331
+            }
+        },
+        {
+            "type": "TUNNEL",
+            "name": "塩生トンネル",
+            "up": {
+                "start": 16.14,
+                "end": 16.55,
+                "length_m": 408
+            },
+            "down": {
+                "start": 16.15,
+                "end": 16.55,
+                "length_m": 401
+            }
+        },
+        {
+            "type": "TUNNEL",
+            "name": "鷲羽山トンネル",
+            "up": {
+                "start": 20.68,
+                "end": 20.89,
+                "length_m": 205
+            },
+            "down": {
+                "start": 20.68,
+                "end": 20.89,
+                "length_m": 205
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "下野橋",
+            "up": {
+                "start": 0.17,
+                "end": 0.18
+            },
+            "down": {
+                "start": 0.17,
+                "end": 0.18
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "早島橋",
+            "up": {
+                "start": 0.22,
+                "end": 0.29
+            },
+            "down": {
+                "start": 0.22,
+                "end": 0.29
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "西田高架橋",
+            "up": {
+                "start": 0.29,
+                "end": 1.36
+            },
+            "down": {
+                "start": 0.29,
+                "end": 1.36
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "六間川橋",
+            "up": {
+                "start": 1.36,
+                "end": 1.38
+            },
+            "down": {
+                "start": 1.36,
+                "end": 1.38
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "亀山高架橋",
+            "up": {
+                "start": 1.38,
+                "end": 2.62
+            },
+            "down": {
+                "start": 1.38,
+                "end": 2.62
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "有城高架橋",
+            "up": {
+                "start": 3.38,
+                "end": 3.7
+            },
+            "down": {
+                "start": 3.38,
+                "end": 3.7
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "有城橋",
+            "up": {
+                "start": 4.0,
+                "end": 4.01
+            },
+            "down": {
+                "start": 4.0,
+                "end": 4.01
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "粒浦橋",
+            "up": {
+                "start": 4.18,
+                "end": 4.3
+            },
+            "down": {
+                "start": 4.18,
+                "end": 4.3
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "粒江橋",
+            "up": {
+                "start": 4.45,
+                "end": 4.46
+            },
+            "down": {
+                "start": 4.45,
+                "end": 4.46
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "粒江高架橋",
+            "up": {
+                "start": 4.9,
+                "end": 5.69
+            },
+            "down": {
+                "start": 4.9,
+                "end": 5.69
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "盃池橋",
+            "up": {
+                "start": 7.59,
+                "end": 7.72
+            },
+            "down": {
+                "start": 7.59,
+                "end": 7.72
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "曽原橋",
+            "up": {
+                "start": 8.12,
+                "end": 8.25
+            },
+            "down": {
+                "start": 8.12,
+                "end": 8.25
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "福江橋",
+            "up": {
+                "start": 8.45,
+                "end": 8.5
+            },
+            "down": {
+                "start": 8.45,
+                "end": 8.5
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "福江高架橋",
+            "up": {
+                "start": 8.9,
+                "end": 9.2
+            },
+            "down": {
+                "start": 8.9,
+                "end": 9.2
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "御前道高架橋",
+            "up": {
+                "start": 11.05,
+                "end": 11.35
+            },
+            "down": {
+                "start": 11.05,
+                "end": 11.35
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "岸ノ上高架橋",
+            "up": {
+                "start": 11.4,
+                "end": 11.75
+            },
+            "down": {
+                "start": 11.4,
+                "end": 11.75
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "第一柳田高架橋",
+            "up": {
+                "start": 13.41,
+                "end": 13.59
+            },
+            "down": {
+                "start": 13.41,
+                "end": 13.59
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "第二柳田高架橋",
+            "up": {
+                "start": 14.02,
+                "end": 14.09
+            },
+            "down": {
+                "start": 14.02,
+                "end": 14.09
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "通生橋",
+            "up": {
+                "start": 16.87,
+                "end": 16.99
+            },
+            "down": {
+                "start": 16.87,
+                "end": 17.00
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "下池橋",
+            "up": {
+                "start": 17.67,
+                "end": 17.79
+            },
+            "down": {
+                "start": 17.67,
+                "end": 17.79
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "菰池高架橋",
+            "up": {
+                "start": 17.8,
+                "end": 18.35
+            },
+            "down": {
+                "start": 17.8,
+                "end": 18.35
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "児島IC橋",
+            "up": {
+                "start": 18.8,
+                "end": 18.88
+            },
+            "down": {
+                "start": 18.8,
+                "end": 18.88
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "宮池橋",
+            "up": {
+                "start": 19.0,
+                "end": 19.19
+            },
+            "down": {
+                "start": 19.0,
+                "end": 19.19
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "大畠第一高架橋",
+            "up": {
+                "start": 19.85,
+                "end": 19.95
+            },
+            "down": {
+                "start": 19.85,
+                "end": 19.95
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "大畠第二高架橋",
+            "up": {
+                "start": 19.95,
+                "end": 20.09
+            },
+            "down": {
+                "start": 19.95,
+                "end": 20.09
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "下津井瀬戸大橋",
+            "up": {
+                "start": 20.99,
+                "end": 22.39,
+                "length_m": 1400
+            },
+            "down": {
+                "start": 20.99,
+                "end": 22.39,
+                "length_m": 1400
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "櫃石島高架橋",
+            "up": {
+                "start": 22.4,
+                "end": 23.56,
+                "length_m": 1326
+            },
+            "down": {
+                "start": 22.4,
+                "end": 23.56,
+                "length_m": 1326
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "櫃石島橋",
+            "up": {
+                "start": 23.66,
+                "end": 24.45,
+                "length_m": 790
+            },
+            "down": {
+                "start": 23.66,
+                "end": 24.45,
+                "length_m": 790
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "岩黒島高架橋",
+            "up": {
+                "start": 24.45,
+                "end": 24.54,
+                "length_m": 93
+            },
+            "down": {
+                "start": 24.45,
+                "end": 24.54,
+                "length_m": 93
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "岩黒島橋",
+            "up": {
+                "start": 24.54,
+                "end": 25.34,
+                "length_m": 790
+            },
+            "down": {
+                "start": 24.54,
+                "end": 25.34,
+                "length_m": 790
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "与島橋",
+            "up": {
+                "start": 25.34,
+                "end": 26.19,
+                "length_m": 850
+            },
+            "down": {
+                "start": 25.34,
+                "end": 26.19,
+                "length_m": 850
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "与島高架橋",
+            "up": {
+                "start": 26.2,
+                "end": 26.99,
+                "length_m": 790
+            },
+            "down": {
+                "start": 26.2,
+                "end": 26.99,
+                "length_m": 790
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "北備讃瀬戸大橋",
+            "up": {
+                "start": 26.99,
+                "end": 28.528,
+                "length_m": 1538
+            },
+            "down": {
+                "start": 26.99,
+                "end": 28.528,
+                "length_m": 1538
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "南備讃瀬戸大橋",
+            "up": {
+                "start": 28.528,
+                "end": 30.18,
+                "length_m": 1648
+            },
+            "down": {
+                "start": 28.528,
+                "end": 30.18,
+                "length_m": 1648
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "番の州高架橋",
+            "up": {
+                "start": 30.2,
+                "end": 33.139,
+                "length_m": 2939
+            },
+            "down": {
+                "start": 30.2,
+                "end": 33.139,
+                "length_m": 2939
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "常盤高架橋",
+            "up": {
+                "start": 34.75,
+                "end": 34.85
+            },
+            "down": {
+                "start": 34.75,
+                "end": 34.85
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "八幡高架橋",
+            "up": {
+                "start": 35.21,
+                "end": 35.5
+            },
+            "down": {
+                "start": 35.21,
+                "end": 35.5
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "宇多津橋",
+            "up": {
+                "start": 35.84,
+                "end": 35.86
+            },
+            "down": {
+                "start": 35.84,
+                "end": 35.86
+            }
+        },
+        {
+            "type": "BRIDGE",
+            "name": "川津高架橋",
+            "up": {
+                "start": 36.82,
+                "end": 36.99
+            },
+            "down": {
+                "start": 36.82,
+                "end": 36.99
+            }
+        }
+    ],
+    "facilities": [
+        {
+            "name": "早島IC",
+            "type": "IC",
+            "up": {
+                "kp": 0.0
+            },
+            "down": {
+                "kp": 0.0
+            }
+        },
+        {
+            "name": "粒江PA",
+            "type": "PA",
+            "up": {
+                "kp": 6.8
+            },
+            "down": {
+                "kp": 6.8
+            }
+        },
+        {
+            "name": "水島IC",
+            "type": "IC",
+            "etcOnly": true,
+            "up": {
+                "kp": 8.2
+            },
+            "down": {
+                "kp": 8.2
+            }
+        },
+        {
+            "name": "鴻ノ池SA",
+            "type": "SA",
+            "up": {
+                "kp": 15.0
+            },
+            "down": {
+                "kp": 15.6
+            }
+        },
+        {
+            "name": "児島IC",
+            "type": "IC",
+            "up": {
+                "kp": 18.8
+            },
+            "down": {
+                "kp": 18.8
+            }
+        },
+        {
+            "name": "与島PA",
+            "type": "PA",
+            "up": {
+                "kp": 26.4
+            },
+            "down": {
+                "kp": 26.4
+            }
+        },
+        {
+            "name": "坂出北IC",
+            "type": "IC",
+            "up": {
+                "kp": 34.7
+            },
+            "down": {
+                "kp": 34.7
+            }
+        },
+        {
+            "name": "坂出IC",
+            "type": "IC",
+            "up": {
+                "kp": 37.3
+            },
+            "down": {
+                "kp": 37.3
+            }
+        }
+    ]
+}

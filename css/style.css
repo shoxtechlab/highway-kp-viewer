@@ -1,0 +1,188 @@
+/* 全体 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Yu Gothic UI", "Meiryo", sans-serif;
+    background: #f3f3f3;
+}
+
+#app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 16px 20px 20px;
+}
+
+svg {
+    background: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    height: auto;
+}
+
+/* スマホだけ */
+@media (max-width: 799px) {
+    svg {
+        width: 100%;
+    }
+}
+
+#kp-ui {
+    position: fixed;
+    top: 66px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    z-index: 9999;
+}
+
+#topbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    padding: 0 18px;
+    
+    background: #00973a;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+#app-title {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    color: #fff;
+    text-decoration: none;
+    min-width: 120px;
+}
+
+.app-title-main {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.app-title-sub {
+    margin-top: 3px;
+    font-size: 11px;
+    color: #cbe1d2;
+}
+
+#route-title {
+    padding-left: 18px;
+    border-left: 1px solid rgba(255,255,255,0.25);
+    font-size: 15px;
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.road,
+.structure-body {
+    cursor: crosshair;
+}
+
+.facility,
+.structure-label {
+    cursor: pointer;
+}
+
+#mini-map {
+    position: fixed;
+    top: 220px;
+    right: 10px;
+    width: 220px;
+    height: 180px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 9998;
+    overflow: hidden;
+}
+
+@media (max-width: 799px) {
+    #mini-map {
+        display: none;
+    }
+}
+
+.home {
+    width: min(960px, calc(100% - 32px));
+    padding: 24px;
+}
+
+.hero {
+    padding: 28px 32px;
+    background: linear-gradient(135deg, #00973a, #00722e);
+    color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.16);
+}
+
+.hero-kicker {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    opacity: 0.85;
+    margin-bottom: 8px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #e8f5ec;
+}
+
+.route-panel {
+    margin-top: 24px;
+    padding: 22px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.route-panel h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.route-list a {
+    display: block;
+    padding: 14px 16px;
+    margin-top: 10px;
+    color: #222;
+    text-decoration: none;
+    background: #f8faf8;
+    border: 1px solid #d7e5dc;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.route-list a:hover {
+    background: #edf8f1;
+    border-color: #00973a;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+}

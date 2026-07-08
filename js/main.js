@@ -3,9 +3,17 @@ import { createExpresswaySvg } from "./svg.js";
 import { mouseYToKp, getSvgPoint } from "./utils.js";
 import {
     buildKPViewModel,
-    buildKPIndex,
     kpToStreetView
 } from "./svEngine.js";
+
+import { buildKPIndex } from "./kpGeo.js"
+
+import { getMockGpsPoint } from "./mockGps.js";
+import { matchGpsToRoute } from "./routeMatcher.js";
+import {
+  createCurrentLocationPanel,
+  updateCurrentLocationPanel
+} from "./currentLocationUi.js";
 
 async function main() {
     const params = new URLSearchParams(location.search);
@@ -16,6 +24,19 @@ async function main() {
 
     const geoUp = geoData.features.find(f => f.properties.name === "up");
     const geoDown = geoData.features.find(f => f.properties.name === "down");
+
+    // createCurrentLocationPanel();
+
+    // const gpsPoint = getMockGpsPoint();
+
+    // // まずは down / up どちらか片方で試す
+    // const routeFeature = geoDown ?? geoUp;
+
+    // const result = matchGpsToRoute(gpsPoint, routeFeature, {
+    // kpOffset: 0
+    // });
+
+    // updateCurrentLocationPanel(result);
 
     const upIndex = buildKPIndex(geoUp);
     const downIndex = buildKPIndex(geoDown);
@@ -30,6 +51,7 @@ async function main() {
     const miniMapEl = document.getElementById("mini-map");
     let miniMap = null;
     let miniMarker = null;
+
 
     const pageTitle = road.name || routeId.toUpperCase();
     document.title = `${pageTitle} | KP Viewer`;

@@ -8,12 +8,12 @@ import {
 
 import { buildKPIndex } from "./kpGeo.js"
 
-import { getMockGpsPoint } from "./mockGps.js";
-import { matchGpsToRoute } from "./routeMatcher.js";
-import {
-  createCurrentLocationPanel,
-  updateCurrentLocationPanel
-} from "./currentLocationUi.js";
+// import { getMockGpsPoint } from "./mockGps.js";
+// import { matchGpsToRoute } from "./routeMatcher.js";
+// import {
+//   createCurrentLocationPanel,
+//   updateCurrentLocationPanel
+// } from "./currentLocationUi.js";
 
 async function main() {
     const params = new URLSearchParams(location.search);

@@ -10,16 +10,33 @@ const SVG_NS = "http://www.w3.org/2000/svg";
  * @returns {SVGElement}
  */
 export function createSVG(tag, attrs = {}) {
-
-    const element = document.createElementNS(SVG_NS, tag);
-
-    for (const [key, value] of Object.entries(attrs)) {
-        element.setAttribute(key, value);
+    const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  
+    if (tag === "rect") {
+      const h = Number(attrs.height);
+      const w = Number(attrs.width);
+  
+      if (Number.isFinite(h) && h < 0) {
+        console.error("NEGATIVE RECT HEIGHT", {
+          attrs,
+          stack: new Error().stack
+        });
+      }
+  
+      if (Number.isFinite(w) && w < 0) {
+        console.error("NEGATIVE RECT WIDTH", {
+          attrs,
+          stack: new Error().stack
+        });
+      }
     }
-
-    return element;
-
-}
+  
+    for (const [key, value] of Object.entries(attrs)) {
+      el.setAttribute(key, value);
+    }
+  
+    return el;
+  }
 
 /**
  * KP → SVGのY座標へ変換
